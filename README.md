@@ -41,6 +41,12 @@ completed_ssh_tasks
   # Копируем на виртуальную машину
   scp test_scp.txt ubuntu@192.168.0.249:~/
 
+  # Копируем обратно
+  scp ubuntu@192.168.0.249:~/test_scp.txt ./scp_test_backup.txt
+
+  # Смотрим что пришло
+  cat scp_test_backup.txt
+
 ### Кейс 4: Работа с SSH-ключами
 - Настроен беспарольный доступ по ключам
 - Подключение без ввода пароля
