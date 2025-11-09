@@ -2,6 +2,8 @@
 completed_ssh_tasks
 # Практика SSH - Кейсы 1-4
 
+**Репозиторий:** https://github.com/Darkness9872/ssh_tasks
+
 ## Выполненные задания:
 
 ### Кейс 1: Установка и настройка SSH-сервера
